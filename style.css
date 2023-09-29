@@ -1,3 +1,7 @@
+nav{
+  position: fixed;
+  top: 0;
+}
 .hero{
   padding: 10px;
 }
@@ -22,4 +26,41 @@
 }
 .fs{
   font-size: 50px;
+}
+.venueAddress{
+  background-image: url(images/stackimg17.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+
+.borderbottom{
+  border-bottom: 2px solid white;
+  rotate: -90deg;
+  position: relative;
+  top: 200px;
+  right: 250px;
+}
+.borderbottom1{
+  border-bottom: 2px solid white;
+  rotate: 90deg;
+  position: relative;
+  top: 200px;
+  left: 900px;
+}
+.px{
+  padding: 20px 100px;
+  width: 750px;
+  font-size: 37px !important;
+}
+.yello{
+  border: 2px solid #fdb915;
+}
+.padding3{
+  padding: 20px 30px;
+}
+.con1{
+ position: relative;
+ right: 100px;
 }
