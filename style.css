@@ -1,0 +1,17 @@
+.hero{
+  padding: 10px;
+}
+.darkblue{
+  color: #224093;
+}
+.padding{
+  padding: 0px 350px;
+}
+.padding>hr{
+  border: 2px solid grey;
+  position: relative;
+  bottom: 38px;
+}
+.gradient{
+  
+}
