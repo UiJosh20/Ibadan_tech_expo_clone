@@ -64,3 +64,54 @@ nav{
  position: relative;
  right: 100px;
 }
+
+.bg-white{
+  background-color: white;
+  height: 100vh;
+}
+.bg-gold{
+  background-color: goldenrod;
+  color: #224093;
+}
+.bg-blue{
+  background-color: #224093;
+}
+.margintop{
+  margin-top: 60px;
+}
+
+.margintop1{
+  margin-top: 10px;
+}
+
+.margintop2{
+  margin-top: 150px;
+}
+
+
+@media screen and (max-width: 475px){
+
+  .smalllog>img{
+      width: 250px;
+  }
+  nav>.hido{
+    display: none !important;
+  }
+  .hero{
+    width: 100%;
+  }
+  .heroimg{
+    padding: 0 20px;
+    margin-top: 100px;
+  }
+  .heroimg>img{
+    width: 1000px;
+
+  }
+
+  .maide{
+    display: block;
+    width: 100%;
+  }
+  
+}
